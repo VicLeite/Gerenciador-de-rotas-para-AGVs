@@ -1,0 +1,124 @@
+
+  .main-container .head {
+    padding: 5px;
+    background-color:white;
+    border-bottom: 1px solid #DCDCDC;
+    border-radius: 4px;
+  }
+  .main-container .body{
+    margin: 1rem 3rem;
+    padding: 0px 0px;
+    text-align: center;
+  }
+
+  .main-container .head ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 17fr 3fr 1fr;
+    margin-bottom: 0px;
+  }
+
+  .main-container .head  ul li {
+    display: flex;
+    flex-direction: line;
+  }
+  .main-container .head  p {
+    color:  #403D3D;
+    font-weight: bold;
+    margin:0.6rem;
+  }
+  .main-container .head button{
+    float: right;
+    margin: 0.5rem;
+    border: 0;
+    border-radius: 4px;
+    background:white;
+    cursor: pointer;
+  }
+  .main-container .head button:hover{
+    transform:translatey(-5px);
+  }
+
+  .main-container .body ul {
+    list-style: none;    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .main-container .body ul li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-container .posto ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+  }
+
+  .main-container .posto ul li {
+    display: flex;
+    flex-direction: column;
+    background-color:#F7F7F7;
+    border: 1px solid #F8F8FF;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  .main-container .posto ul li strong {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .main-container .posto ul li  button{
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 0;
+    border-radius: 4px;
+    background:#FF4500;
+    cursor: pointer;
+    margin: 1.5rem;
+    padding: 1rem;
+  }
+
+  .main-container .posto ul li  button:hover{
+    transform:translatey(-5px);
+  }
+
+  .main-container .posto  ul li  button p {
+    color: white;
+    font-weight: bold;
+  }
+
+  .main-container .posto .empty {
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 300px;
+  }
+  .main-container .status{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color:#F7F7F7;
+    border: 1px solid #F8F8FF;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #DCDCDC;
+    text-align: center;
+  }
+
+  .main-container .status strong {
+    font-size: 16px;
+    color: #333;
+    padding:1rem;
+  }
+
+  
+

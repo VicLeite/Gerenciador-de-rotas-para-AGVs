@@ -1,0 +1,167 @@
+  .config-container .head {
+    padding: 5px;
+    background-color:white;
+    border-bottom: 1px solid #DCDCDC;
+    border-radius: 4px;
+  }
+  .config-container .head ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 14fr 3fr 3fr 1fr;
+  }
+
+  .config-container .head  ul li {
+    display: flex;
+    flex-direction: line;
+  }
+  .config-container .head  p {
+    font-size: 16px;
+    color:  #403D3D;
+    font-weight: bold;
+    margin:0.6rem;
+  }
+  .config-container .head button{
+    float: right;
+    margin: 0.5rem;
+    border: 0;
+    border-radius: 4px;
+    background:white;
+    cursor: pointer;
+  }
+
+  .config-container .head button:hover{
+    transform:translatey(-5px);
+  }
+
+  .config-container .head .ul-head{
+    margin-bottom: 0px;
+  }
+
+  .config-container .head .button-tex{
+    float: right;
+    margin: 0;
+    border: 0;
+    border-radius: 4px;
+    background:white;
+    cursor: pointer;
+    font-size: 16px;
+    color:  #403D3D;
+    font-weight: bold;
+    margin:0.6rem;
+  }
+
+  .config-container .head .button-tex:hover{
+    color:#A8A8A8;
+  }
+
+  /* Body */
+
+  .config-container .body .empty {
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 300px;
+  }
+
+  .config-container .body{
+    margin: 0rem 3rem;
+    padding: 0px 0px;
+  }
+
+  .config-container .body ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+  }
+
+  .config-container .body ul li {
+    background-color:#F7F7F7;
+    border: 1px solid #F8F8FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  .config-container .body .li-head{
+    clear: both;
+    padding: 2rem 2rem 0rem 2rem;
+    color:transparent;
+  }
+
+  .config-container .body .li-head .button-close{
+    background-color: transparent;
+    border:0;
+    float: right;
+  }
+
+  .config-container .body .li-head .button-close:hover{
+    transform:translatey(-5px);
+  }
+
+  .config-container .body .li-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 2rem 4rem;
+  }
+
+  .config-container .body ul li .li-body strong {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 0.5px 0.5px 0.5px #3D3D3D;
+    text-align: center;
+  }
+
+  .config-container .body .li-body-new{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+  }
+  
+  .config-container .body ul li .li-body-new strong {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 0.5px 0.5px 0.5px #3D3D3D;
+    text-align: center;
+  }
+  .config-container .body .close-button{
+    width: 30px;
+    height: 30px;
+    margin: 0rem;
+    border: 0;
+    border-radius: 4px;
+    background:transparent;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .config-container .body .close-button:hover{
+    transform:translatey(-5px);
+  }
+
+.config-container .body form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.config-container .body form button{
+  margin: 0px;
+  height: 48px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #FF4500;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+.config-container .body form button:hover{
+  transform:translatey(-5px);
+} 
+
+
